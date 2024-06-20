@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <label>Name</label>
+    <input type="text" id="s_name">
+    <label>Roll</label>
+    <input type="text" id="s_roll">
+    <label>Phone</label>
+    <input type="text" id="s_phone">
+
+    <button onclick="addstudent()">Add Student</button>
+    <script src="./custom.js"></script>
+    
+    <form id="vote_form" style="margin:30px 0 0;">
+        <label>candidate1</label> 
+        <input type="radio" name="candidate" value="1">
+        <label>candidate2</label>
+        <input type="radio" name="candidate" value="2">
+        <label>candidate3</label>
+        <input type="radio" name="candidate" value="3">
+
+        <button onclick="countVotes()" type="submit">Submit</button>
+
+        <div id="result"></div>
+    </form>
+</body>
+</html>
